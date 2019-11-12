@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section>
+        <h2>Simple Loan Calculator</h2>
+        <form>
+            <label>Loan Amount (CAD)</label>
+            <input type="text" id="amount">
+            <br>
+ 
+            <label>Loan Term (Years)</label>
+            <input type="text" id="years">
+            <br>
+
+            <label>Annual Interest Rate (%)</label>
+            <input type="text" id="years" value="5" disabled>
+
+            <label>Payment Frequency</label>
+            
+            <label class="radio">Weekly</label>
+            <input type="radio" disabled>
+            <label class="radio">Monthly</label>
+            <input type="radio" checked>
+            <label class="radio">Yearly</label>
+            <input type="radio" disabled>
+            <br>
+
+            <input type="button" value="Calculate" id="submit">
+        </form>
+        
+
+        <div id="result"></div>
+    </section>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
