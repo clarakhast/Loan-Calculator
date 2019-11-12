@@ -10,8 +10,7 @@ body {
     background-color: #FFFDF6;
     background-image: url(../img/1.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+    background-size: cover;
     background-attachment: fixed;
 }
 
