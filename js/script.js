@@ -17,11 +17,11 @@ function loanCalculation(){
     box.innerHTML=`
     <h3>Your Monthly Payments</h3>
     <ul>
-        <li>Loan Amount: <span class="orange">${loanAmount}$</span></li>
+        <li>Loan Amount: <span class="orange">${loanAmount} $</span></li>
         <li>Interest Rate: <span class="orange">5%</span> </li>
         <li>Number of Years: <span class="orange">${numberOfYears}</span></li>
         <li>Number Of Payments: <span class="orange">${numberOfPayments}</span></li>
-        <li>Monthly Payments: <span class="orange">${monthlyPayment}$</span></li>
+        <li>Monthly Payments: <span class="orange">${monthlyPayment} $</span></li>
     </ul>`;
 }
 
